@@ -13,6 +13,10 @@ body{
     background: #FFF;
     color: #FFF;
     font-family: 'Space Mono';
+    
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto 1fr auto;
 }
 
 h1, p{
@@ -48,11 +52,54 @@ a{
 .text-logo a{
     font-size: 14px;
     font-family: 'Inconsolata';
-    font-style: normal;
+    font-style: normal;  
     font-weight: 200;
     color: #333;
+    text-transform: uppercase;
+    margin: .75em 0;
 }
 
+
+.main{
+    position: relative;
+    padding: 1em 1em 0;
+    text-align: center;
+}
+
+.main-img{
+    margin: 0;
+    max-width: 300px;
+    width: 100%;
+    display: block;
+}
+
+.main-text{
+    padding: 0;
+    animation: opacityText 3.5;
+}
 .main-h1{
     color: #333;
+    font-family: 'Space mono';
+}
+.main-p{
+    color: var(--gray-2, #4F4F4F);
+    font-size: 24px;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.84px;
+}
+
+.main-btn{
+    cursor: pointer;
+    border: 1px solid transparent;
+    outline: none;
+    font-family: 'Space mono';
+    font-size: 1.25em;
+    padding: 1em;
+    font-weight: bolder;
+    background-color: #333;
+    color: #FFF;
+    text-transform: uppercase;
 }
