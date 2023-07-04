@@ -1,0 +1,58 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Great+Vibes&family=Lora:wght@500&family=Montserrat&family=Open+Sans:wght@300;400;600;700&family=Space+Mono:wght@400;700&display=swap');
+
+/* Global styles */
+
+html{
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #FFF;
+    color: #FFF;
+    font-family: 'Space Mono';
+}
+
+h1, p{
+
+}
+
+a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1360px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+/*start header*/
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 42px 0;
+}
+
+.text-logo{
+    border: 1px solid #FFF;
+    padding: 8px;
+}
+
+.text-logo a{
+    font-size: 14px;
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 200;
+    color: #333;
+}
+
+.main-h1{
+    color: #333;
+}
